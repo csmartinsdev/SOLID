@@ -8,10 +8,11 @@ import java.nio.file.Paths;
 
 public class App {
     public static void main(String[] args) {
+        process(new S3ReportGenerator());
 
     }
 
-    private void process(ReportGenerator reportGenerator) {
+    private static void process(ReportGenerator reportGenerator) {
         var reportPath = reportGenerator.generate();
         Path path = Paths.get(reportPath);
 
