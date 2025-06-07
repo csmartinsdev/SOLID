@@ -1,5 +1,7 @@
 package SRP.bad;
 
+import SRP.Order;
+
 import java.util.UUID;
 
 public class Main {

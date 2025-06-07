@@ -1,4 +1,4 @@
-package SRP.bad;
+package SRP;
 
 import java.util.UUID;
 

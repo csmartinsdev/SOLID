@@ -1,5 +1,7 @@
 package SRP.bad;
 
+import SRP.Order;
+
 public class OrderProcessorService {
     public void processOrder(Order order) {
         this.checkInventory(order);
